@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.8;
     margin: 0;
     padding: 20px;
     background-color: #f4f4f4;
@@ -10,18 +10,77 @@ body {
     background-color: #333;
     color: white;
     padding: 20px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .headertext1, .headertext2 {
+    margin: 5px 0;
+  }
+  
+  .headertext2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #f4f4f4;
+  }
+  
+  .headertext1 {
+    font-size: 1.1em;
+    color: #ddd;
   }
   
   section {
-    margin: 20px 0;
+    margin: 30px 0;
   }
   
-  h1, h2 {
-    color: #333;
+  h2 {
+    color: #393939;
+    margin-bottom: 10px;
   }
   
   p, ul {
     color: #555;
+    margin: 10px 0;
   }
+  
+  .experience, .education, .achievements {
+    padding-left: 20px;
+  }
+  
+  .subtext {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: -10px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
   
